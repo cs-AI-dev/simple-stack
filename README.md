@@ -6,11 +6,16 @@ The stack is called as an object and has 4 methods.
 mystack = stack.Stack()`  
 ### .read()
 Reads off the whole stack, top to bottom.
-`mystack.read()  
+`mystack.read() ` 
 > "Hello World"  
 > 15  
-> [1, 2, 3]`  
+> [1, 2, 3]
 ### .push( value )
 Pushes the value of the `value` parameter onto the top of the stack.  
 The function accepts *integer, float, string, list, and dictionaries*.  
-`mystack.pu`
+`mystack.push("foo")  
+mystack.read()`  
+> "foo"
+> "Hello World"
+> 15
+> [1, 2, 3]
